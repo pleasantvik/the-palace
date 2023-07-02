@@ -12,13 +12,13 @@ const AddCabin = () => {
   return (
     <Drawer
       drawerName="addCabin"
-      titleText="Add new User"
+      titleText="Add new Cabin"
       primaryButton="Send"
       secondaryButton="Cancel"
       isSubmitting={false}
       handleSubmit={handleUser}
     >
-      <Typography>Add User</Typography>
+      <Typography>Add Cabin</Typography>
     </Drawer>
   );
 };
